@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*#map { position:absolute; width:500px;height:500px; }*/
+#someId {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+    background-color: red;
+}
+
+.vsbtn {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+    margin: 5px;
+    margin-right: 100px;
+    padding: 3px;
+    display: inline-block;
+    float: right;
+}
+
+.vsrad {
+    position: relative;
+    z-index: 99;
+    margin: 5px;
+    padding: 3px;
+    display: inline-block;
+    float: right;
+}
