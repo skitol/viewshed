@@ -1,5 +1,5 @@
 (function() {
-    map = L.mapbox.map('map', 'examples.map-9ijuk24y').setView([37.74139927315054, -119.56043243408202], 12);
+    map = L.mapbox.map('map', 'examples.map-i86nkdio').setView([37.74139927315054, -119.56043243408202], 12);
     control = L.control.layers({}, {
         'elevation': L.imageOverlay('data/38120_16bt_merc_small.png', [
             [37, -120],
