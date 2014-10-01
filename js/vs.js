@@ -1,3 +1,4 @@
+
 var viewshed = function(map, data, bounds) {
         var vs = {};
         var vsButton = d3.select("body").append("div").attr('class', 'vsbtn').text('Viewshed').on("click", function() {
